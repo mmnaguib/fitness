@@ -1,0 +1,247 @@
+#scroll-to-top{
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	position: fixed;
+	right: 15px;
+	bottom: 10px;
+	z-index: 9999;
+	color: #ddd;
+	background-color: #888;
+	cursor: pointer;
+	border-radius: 50%;
+	display: none
+}
+hr{
+    margin-top: 10px;
+}
+/*Start header*/
+.header{
+    background-image: url('../Image/banner.jpeg');
+    height: 80vh;
+    background-size: cover;
+    background-position: center
+}
+.navbar-nav li a{
+    float: right;
+    color: #FFF !important;
+}
+.navbar-brand img{
+    width: 120px;
+}
+.navbar-toggler{
+    border: none !important;
+    outline: none !important;
+}
+nav .fa-bars{
+    color: #FFF;
+    font-size: 25px;
+}
+/*End header*/
+/*Start welcom*/
+.welcome{
+    padding: 50px 100px;
+    margin-top: -140px;
+    background-color: #FFF;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+.welcome h1{
+    color: #333;
+    margin-bottom: 10px
+}
+.welcome p{
+    color: #808080
+}
+.welcome .home-btn{
+    padding: 10px 30px;
+    margin-top:10px; 
+    background-color:#013f7e ;
+    color:#FFF;
+    border-radius: 30px;
+}
+.welcome .btn:focus{
+    box-shadow: none
+}
+/*End welcome*/
+/*start about us*/
+.about-us{
+    padding: 100px 0
+}
+.about-us .aboutmd{
+    padding: 20px 10px
+}
+.about-us h3{
+    margin: 20px auto
+}
+/*End About us*/
+/*Start Services*/
+.services{
+    background-color: #efefef;
+    padding:80px 0 
+}
+.services .service{
+    padding: 20px;
+}
+.services .service h4{
+    padding: 5px;
+}
+.services .service img {
+    width: 50px;
+}
+.services .service p{
+    padding: 5px;
+    text-align: justify
+}
+/*End Services*/
+/*Start features*/
+.features{
+    padding: 100px 0;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("../Image/feat2.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFF;
+}
+.features .feat{
+    padding: 20px;
+}
+.features .feat-box{
+    height: 120px;
+}
+.features .feat-box .feat-left{
+    height: 120px;
+    width: 20%;
+    float: left;
+}
+.features .feat-box .feat-left .fa{
+    padding-top: 13px;
+    font-size: 50px;
+}
+.features .feat-box .feat-right{
+    height: 120px;
+    width: 80%;
+    float: left;
+}
+.features .feat-box .feat-right h4{;
+    text-align: left;
+}
+/*End features*/
+/*Start testimonail*/
+.testimonail{
+    padding: 100px 0;
+}
+.testimonail h1{
+    color:#013f7e;
+    margin-bottom: 20px;
+}
+.testimonail p{
+    padding-bottom: 20px;
+    color: #808080
+}
+.testimonail .test{
+    padding: 10px 30px;
+}
+.testimonail .test .review{
+    padding: 10px 10px 10px 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,.2);
+    color: #000
+        
+}
+.testimonail .test .review .fa-twitter{
+    color: #013f7e
+}
+.testimonail .test .review span{
+    color: #013f7e;
+    font-weight: 600px;
+    font-size: 18px;
+}
+.testimonail .test img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: -30px;
+    margin-top: -40px;
+    border:5px solid #fff;
+    margin-bottom: 30px;
+}
+.middle{
+    margin: -30px 0 ;
+}
+/*end testimonail*/
+/*start subscribe*/
+.secsubscribe{
+    padding: 50px 20px;
+    background-color: #013f7e;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+    color: #FFF;
+    margin-bottom: -160px;
+}
+.subscribe .input-group{
+    border-radius: 50px;
+    background-color: #FFF;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 5px;
+}
+.subscribe .form-control{
+    border: none;
+    background: transparent;
+}
+.subscribe .form-control:focus{
+    box-shadow: none;
+    background: transparent;
+}
+.subscribe .input-group-append{
+    background-image: linear-gradient(to right, #1c03b5 ,#5c8bef);
+    border-radius: 30px;
+}
+.subscribe .input-group-text{
+    background: transparent;
+    border: none;
+    color: #FFF
+}
+.subscribe .btn:focus{
+    box-shadow: none
+}
+/*end subscribe*/
+/*start footer*/
+.footer{
+    margin-top: 80px;
+    padding: 100px;
+    background-color: #efefef;
+    color: #013f7e;
+}
+.footer h1{
+    width: 120px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.footer .foot h1{
+    font-size: 15px;
+    text-align: left;
+    margin: 25px 0;
+}
+.footer .foot p{
+    font-size: 12px;
+    text-align: left
+}
+.footer .foot .city{
+    margin-left: 30px;
+}
+.footer .foot .fa{
+    padding-right: 15px;
+    font-size: 15px
+}
+.footer .fa-heart-o{
+    color: #f00;
+    font-size: 17px;
+}
+.footer .copyright{
+    margin-bottom: -80px;
+    font-size: 15px;
+    text-align: center
+}
+/*End Footer*/
